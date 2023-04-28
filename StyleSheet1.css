@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Jost', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    
+}
+body {
+    background-color: rgba(183, 83, 189, 0.79);
+}
+    header{
+              position:fixed ;
+              width :100%;
+              top:0;
+              right :0;
+              z-index :1000;
+              display :flex ;
+              align-items:center ;
+              justify-content :space-between;
+              padding :20px 10%;
+          }
+    .menu{
+        display :flex ;
+       
+    }
+        .menu a {
+            color:rgb(0, 0, 0);
+            font-size: 17px;
+            padding: 10px 20px;
+            font-weight: 400;
+            transition: all 0.2s ;
+        }
+            .menu a:hover {
+                color: rgb(205, 51, 51);
+            }          
+.icon {
+    display: flex;
+    align-items:center ;
+}
+.icon i {
+    margin-left  :20px;
+    color :darkslategray;
+    font-size :25px;
+    font-weight :400px;
+
+}
+    .icon i:hover {
+        color: rgb(205, 51, 51);
+        transition: all 0.2s ;
+
+    }
+    section{
+        padding :18% 10%;
+    }
+.main-home {
+    width: 100%;
+    height: 77vh;
+    background-image: url(banner1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.main-home h1 {
+    font-size:50px;
+}
+.main-page{
+    font-size :16px;
+    color:goldenrod;
+    font-weight :400;
+}
+.main-text p {
+color :white
+}
+.main-text h5 {
+    color:white
+}
+.main-text i {
+    color:white;
+    position:relative;
+        top:3px;
+        right :2px;
+}
+.main-page:hover {
+    color :rebeccapurple;
+    transition: all 0.2s ;
+
+
+}
+.centre-text h2{
+    font-size:28px;
+    text-align :center ;
+}
+.products {
+    display: grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,auto) );
+
+}
+.row{
+    position :relative
+}
+.row img {
+    width :93%;
+    height:auto ;
+    transition :all .40s;
+
+}
+    .row img:hover {
+        transform :scale(0.9) ;
+    }
+.ratting i{
+    color :orange;
+    font-size :18px;
+}
+.price h4{
+    color :rgb(44 39 39);
+    font-size :16px;
+    font-weight :400;
+}
+.price p{
+    font-size :16px;
+    font-weight :600 ;
+}
+.centre-text h2{
+    position :relative ;
+    bottom :50px;
+}
+footer{
+    height: 600px;
+    margin-top: 50px;
+    
+}
+
+footer .main{
+    display: flex;
+}
+footer .div2{
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+}
+.navi{
+    width: fit-content;
+    margin-left: 90px  ;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+footer .div2 li{
+    margin-left:95px ;
+    margin-bottom: 20px;
+    list-style: none;
+}
+footer .div2 ol{
+    margin-bottom: 10px;
+   text-align: start;
+}
+footer .div3 {
+    width: fit-content;
+padding-left: 100px;
+
+}
+footer .div3 h1 {
+    width: fit-content;
+    margin-bottom: 30px;
+}
+footer .div3 img {
+    margin-bottom: 20px;
+    width: 300px;
+    height: 110px;
+}
+footer .div3 p {
+    width: fit-content;
+    margin-bottom: 10px;
+}
+
+.find{
+    font-size: 20px;
+    color: #7a0fde;
+    text-transform: capitalize;
+}
+footer .div3 .p1 {
+    color: #000000d2;
+}
+footer .div4 {
+    width: fit-content;
+padding-left: 20px;
+
+}
+footer .div4 h1 {
+    text-transform: capitalize;
+    width: fit-content;
+}
+.contact{
+    margin-bottom: 30px;
+}
+.posi,.phone,.gemail{
+     display: flex;
+     width: 250px;
+     margin: 20px 0;
+     align-items: center;
+}
+.posi i,.phone i,.gemail i{
+ margin-right: 10px;
+ color: #5a07a7;
+}
+.posi p{
+    text-transform: capitalize;
+}
+.sub h1{
+    width: fit-content;
+    height: fit-content;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.btns{
+    margin-top: 0;
+    position: relative;
+
+}
+.email{
+    padding: 9px 5px ;
+    position: absolute;
+    z-index: -1;
+    font-size: 10px;
+    color: black;
+ }
+ .send{
+    position: absolute;
+    z-index: 1;
+    padding: 10px;
+    background-color: #7a0fde;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 10px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 10px black;
+    left: 130px;
+    top: 1px;
+}
+.ahmed{
+    width: fit-content;
+    margin: auto;
+    margin-top: 260px;
+}
+.my{
+    color: #7a0fde;
+    text-transform: capitalize;
+}
+hr{
+    background-color:  black;
+}
+  
